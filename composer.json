@@ -1,18 +1,18 @@
 {
-    "name": "gloudemans/shoppingcart",
+    "name": "asyrafhussin/shoppingcart",
     "description": "Laravel Shoppingcart",
     "keywords": ["laravel", "shoppingcart"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rob Gloudemans",
-            "email": "info@robgloudemans.nl"
+            "name": "Asyraf Hussin",
+            "email": "asyrafhussin4@gmail.com"
         }
     ],
     "require": {
-        "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*|| 5.6.* || 5.7.*",
-        "illuminate/session": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*|| 5.6.* || 5.7.*",
-        "illuminate/events": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*|| 5.6.* || 5.7.*"
+        "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*|| 5.6.* || 5.7.* || 5.8.*",
+        "illuminate/session": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*|| 5.6.* || 5.7.* || 5.8.*",
+        "illuminate/events": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*|| 5.6.* || 5.7.* || 5.8.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0 || ~6.0 || ~7.0",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Gloudemans\\Shoppingcart\\": "src/"
+            "AsyrafHussin\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
+            "AsyrafHussin\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "suggest": {
@@ -36,10 +36,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+                "AsyrafHussin\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+                "Cart": "AsyrafHussin\\Shoppingcart\\Facades\\Cart"
             }
         }
     }
